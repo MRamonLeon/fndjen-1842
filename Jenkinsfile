@@ -1,7 +1,7 @@
 node {
   stage ('hello') {
     dir ('foo') {
-      echo 'Hello'
+      echo 'Hello second in master'
     }
   }
 }
